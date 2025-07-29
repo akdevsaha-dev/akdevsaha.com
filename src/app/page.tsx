@@ -1,103 +1,181 @@
+"use client";
+import { Globe, Moon, SunMedium } from "lucide-react";
+import Link from "next/link";
+import { useEffect, useState } from "react";
+import { motion } from "motion/react";
 import Image from "next/image";
 
 export default function Home() {
+  const [theme, setTheme] = useState("light");
+  const words = ["Backends", "Frontend", "WebApps"];
+  const toggleTheme = () => {
+    const newTheme = theme === "dark" ? "light" : "dark";
+    setTheme(newTheme);
+    document.documentElement.classList.toggle("dark", newTheme === "dark");
+  };
+  const [index, setIndex] = useState(0);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIndex((prev) => (prev + 1) % words.length);
+    }, 3000);
+    return () => clearInterval(interval);
+  }, []);
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+    <div className="min-h-screen w-full bg-[#e9e9e0] text-[#454228] dark:text-neutral-100  dark:bg-[#0e0e0e] flex justify-center items-center">
+      <div className="min-h-screen md:w-[55%] w-[90%] bg-[#f1f0e6] dark:bg-[#121111] px-8">
+        <motion.nav
+          initial={{
+            opacity: 0,
+            y: -50,
+          }}
+          animate={{
+            opacity: 100,
+            y: 0,
+            transition: { duration: 0.3 },
+          }}
+          className="flex sticky top-0 justify-between  h-20 items-center"
+        >
+          <div className="h-14 w-14 rounded-full bg-black dark:bg-neutral-400 "></div>
+          <div className="flex gap-8 font-semibold text-sm ">
+            <Link href={"/"}>home</Link>
+            <Link href={"/"}>blog</Link>
+            <button onClick={toggleTheme}>
+              {theme === "dark" ? (
+                <SunMedium className="bg-neutral-200 text-black" />
+              ) : (
+                <Moon />
+              )}
+            </button>
+          </div>
+        </motion.nav>
+        <div className="mt-10 font-extrabold text-6xl subpixel-antialiased">
+          Hi,{" "}
+          <motion.span
+            initial={{ opacity: 0, x: 50 }}
+            animate={{
+              opacity: 1,
+              x: 0,
+              transition: {
+                duration: 0.3,
+                ease: "easeOut",
+              },
+            }}
+            className="inline-block"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+            Akdev here.
+          </motion.span>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
+        <div className="mt-4 text-lg font-bold">
+          <span className="dark:text-[#ffffff95]">I build </span>
+          <motion.span
+            key={index}
+            initial={{
+              opacity: 0,
+              scaleY: 0.7,
+              filter: "blur(10px)",
+            }}
+            animate={{
+              opacity: 1,
+              scaleY: 1,
+              filter: "blur(0.6px)",
+            }}
+            exit={{
+              opacity: 0,
+              scaleY: 0.7,
+              filter: "blur(10px)",
+            }}
+            transition={{
+              duration: 0.9,
+              ease: "easeInOut",
+            }}
+            style={{
+              display: "inline-block",
+              transformOrigin: "center",
+            }}
+            className="font-extrabold dark:bg-cyan-500  bg-[#e9e9e0] px-1 py-1 rounded-md text-xl text-[#3f0606] dark:text-[#fef7f7]"
+          >
+            {words[index]}.
+          </motion.span>
+        </div>
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0, transition: { duration: 0.3 } }}
         >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
+          <div className="mt-14 text-xl font-extrabold">About</div>
+          <div className="text-sm font-mono font-medium text-[#4b4b04] dark:text-white">
+            Hey, I’m a developer who loves building cool stuff on the web. I
+            work across the stack, from backend APIs to slick frontend UIs.
+            Whether it’s a side project, or just tinkering with new tech, I’m
+            usually deep in code, figuring things out and pushing things live.
+          </div>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, x: 20 }}
+          animate={{
+            opacity: 1,
+            x: 0,
+            transition: {
+              delay: 0.2,
+              duration: 0.2,
+            },
+          }}
+          className="mt-8"
         >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+          <div className="font-bold text-xl">Cool things I build</div>
+          <div className="mt-4">
+            <div className="flex items-center font-bold gap-3">
+              <div>Trackly</div>
+              {theme === "light" ? (
+                <Link
+                  href={"https://github.com/akdevsaha-dev/Trackly"}
+                  className="w-5 h-5  rounded-full"
+                >
+                  <Image
+                    src={"/github-mark.svg"}
+                    alt="github"
+                    width={40}
+                    height={40}
+                  />
+                </Link>
+              ) : (
+                <Link
+                  href={"https://github.com/akdevsaha-dev/Trackly"}
+                  className="w-5 h-5rounded-full"
+                >
+                  <Image
+                    src={"/github-mark-white.svg"}
+                    alt="github"
+                    width={40}
+                    height={40}
+                  />
+                </Link>
+              )}
+              <Globe size={21} />
+            </div>
+            <div className="flex gap-3 text-sm font-semibold mt-4">
+              <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
+                Nextjs
+              </div>
+              <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
+                tRPC
+              </div>
+              <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
+                Redis
+              </div>
+              <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
+                Motion
+              </div>
+            </div>
+            <div className="mt-4 text-sm font-semibold">
+              Gain meaningful insights without the noise. Track user journeys,
+              monitor performance in real time, and keep your site running
+              smoothly -even on serverless platforms with built-in cold-start
+              protection. All powered by a fast, privacy-first analytics
+              solution.
+            </div>
+          </div>
+        </motion.div>
+      </div>
     </div>
   );
 }
