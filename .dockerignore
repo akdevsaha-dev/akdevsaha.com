@@ -1,0 +1,42 @@
+# Node
+node_modules
+dist
+build
+coverage
+
+# Frontend
+.next
+out
+.vercel
+
+# Python
+__pycache__/
+*.pyc
+
+# Go
+bin/
+*.exe
+*.out
+
+# Secrets & env
+.env
+*.env
+*.pem
+*.key
+*.crt
+
+# Logs
+*.log
+
+# System/Editor
+.git
+.gitignore
+.DS_Store
+Thumbs.db
+ehthumbs.db
+.vscode
+.idea
+*.swp
+*.swo
+*.bak
+*.tmp
