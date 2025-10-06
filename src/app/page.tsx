@@ -1,5 +1,13 @@
 "use client";
-import { Globe, Moon, SunMedium } from "lucide-react";
+import {
+  Github,
+  Globe,
+  Linkedin,
+  Mail,
+  Moon,
+  SunMedium,
+  Twitter,
+} from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { motion } from "motion/react";
@@ -22,7 +30,7 @@ export default function Home() {
   }, []);
   return (
     <div className="min-h-screen w-full bg-[#e9e9e0] text-[#454228] dark:text-neutral-100  dark:bg-[#0e0e0e] flex justify-center items-center">
-      <div className="min-h-screen md:w-[55%] w-[90%] bg-[#f1f0e6] dark:bg-[#121111]">
+      <div className="min-h-screen py-5 md:w-[55%] w-[90%] bg-[#f1f0e6] dark:bg-[#121111]">
         <motion.nav
           initial={{
             opacity: 0,
@@ -35,7 +43,13 @@ export default function Home() {
           }}
           className="flex px-8 z-50 bg-[#f1f0e6]/40 backdrop-blur-[4px] dark:bg-[#121111]/40 sticky top-0 justify-between  h-20 items-center"
         >
-          <div className="h-14 w-14 rounded-full bg-black dark:bg-neutral-400 "></div>
+          <Image
+            src={"/linkedin.jpeg"}
+            alt="profile"
+            width={60}
+            height={60}
+            className="rounded-full "
+          ></Image>
           <div className="flex items-center gap-8 font-semibold text-sm ">
             <Link href={"/"}>home</Link>
             <Link href={"/"}>blog</Link>
@@ -125,7 +139,7 @@ export default function Home() {
             }}
             className="mt-8"
           >
-            <div className="font-bold text-xl">Cool things I build</div>
+            <div className="font-bold text-xl">Cool things I built</div>
             <div className="mt-4 md:px-4 px-2">
               <div className="flex items-center font-bold gap-3">
                 <div className="">Trackly</div>
@@ -231,6 +245,59 @@ export default function Home() {
                 Express, WebSockets, and WebRTC, it combines performance,
                 reliability, and modern UX — all in one app.
               </div>
+              <div className="flex items-center font-bold gap-3 mt-6">
+                <div>Trackly</div>
+                {theme === "light" ? (
+                  <Link
+                    href={"https://github.com/akdevsaha-dev/whispr"}
+                    className="w-5 h-5  rounded-full"
+                  >
+                    <Image
+                      src={"/github-mark.svg"}
+                      alt="github"
+                      width={40}
+                      height={40}
+                    />
+                  </Link>
+                ) : (
+                  <Link
+                    href={"https://github.com/akdevsaha-dev/prwise"}
+                    className="w-5 h-5rounded-full"
+                  >
+                    <Image
+                      src={"/github-mark-white.svg"}
+                      alt="github"
+                      width={40}
+                      height={40}
+                    />
+                  </Link>
+                )}
+                <Globe size={21} />
+              </div>
+              <div className="flex flex-wrap gap-3 text-sm font-semibold mt-4">
+                <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
+                  Reactjs
+                </div>
+                <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
+                  Express
+                </div>
+                <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
+                  Google GenAI
+                </div>
+                <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
+                  Motion
+                </div>
+                <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
+                  Octokit
+                </div>
+              </div>
+              <div className="mt-4 text-sm font-semibold">
+                PR Wise is a sophisticated AI-powered SaaS platform that
+                automates and enhances the code review process for GitHub pull
+                requests. The application provides intelligent analysis,
+                automated feedback, and risk assessment for pull requests to
+                help development teams ship higher quality code faster.
+              </div>
             </div>
             <div className="mt-6 font-bold text-xl">Education</div>
             <div className="flex justify-between items-center mt-4 md:px-4  ">
@@ -252,6 +319,27 @@ export default function Home() {
               </div>
               <div className="text-[12px] md:text-md md:font-bold ">
                 2021-2024
+              </div>
+            </div>
+            <div className="flex items-center justify-center mt-8">
+              <div className="w-20 h-4 bg-white rounded-full"></div>
+            </div>
+            <div className="flex w-full justify-between px-28 text-sm font-semibold mt-6">
+              <div className="flex gap-1">
+                <Mail size={18} />
+                akdevsaha2003@gmail.com
+              </div>
+              <div className="flex gap-1">
+                <Github size={16} />
+                Github
+              </div>
+              <div className="flex gap-1">
+                <Twitter size={16} />
+                Twitter
+              </div>
+              <div className="flex gap-1">
+                <Linkedin size={16} />
+                LinkedIn
               </div>
             </div>
           </motion.div>
