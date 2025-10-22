@@ -50,7 +50,7 @@ export default function Home() {
             height={60}
             className="rounded-full "
           ></Image>
-          <div className="flex items-center gap-8 font-semibold text-sm ">
+          <div className="flex items-center gap-4 md:gap-8 font-semibold text-sm ">
             <Link href={"/"}>home</Link>
             <Link href={"/"}>blog</Link>
             <button
@@ -138,211 +138,291 @@ export default function Home() {
               },
             }}
             className="mt-8"
-          >
-            <div className="font-bold text-xl">Cool things I built</div>
-            <div className="mt-4 md:px-4 px-2">
-              <div className="flex items-center font-bold gap-3">
-                <div className="">Trackly</div>
-                {theme === "light" ? (
-                  <Link
-                    href={"https://github.com/akdevsaha-dev/Trackly"}
-                    className="w-5 h-5  rounded-full"
-                  >
-                    <Image
-                      src={"/github-mark.svg"}
-                      alt="github"
-                      width={40}
-                      height={40}
-                    />
-                  </Link>
-                ) : (
-                  <Link
-                    href={"https://github.com/akdevsaha-dev/Trackly"}
-                    className="w-5 h-5rounded-full"
-                  >
-                    <Image
-                      src={"/github-mark-white.svg"}
-                      alt="github"
-                      width={40}
-                      height={40}
-                    />
-                  </Link>
-                )}
-                <Globe size={21} />
-              </div>
-              <div className="flex gap-3 text-sm font-semibold mt-4">
-                <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
-                  Nextjs
-                </div>
-                <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
-                  tRPC
-                </div>
-                <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
-                  Redis
-                </div>
-                <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
-                  Motion
-                </div>
-              </div>
-              <div className="mt-4 text-sm font-semibold">
-                Gain meaningful insights without the noise. Track user journeys,
-                monitor performance in real time, and keep your site running
-                smoothly -even on serverless platforms with built-in cold-start
-                protection. All powered by a fast, privacy-first analytics
-                solution.
-              </div>
-              <div className="flex items-center font-bold gap-3 mt-6">
-                <div>Whispr</div>
-                {theme === "light" ? (
-                  <Link
-                    href={"https://github.com/akdevsaha-dev/whispr"}
-                    className="w-5 h-5  rounded-full"
-                  >
-                    <Image
-                      src={"/github-mark.svg"}
-                      alt="github"
-                      width={40}
-                      height={40}
-                    />
-                  </Link>
-                ) : (
-                  <Link
-                    href={"https://github.com/akdevsaha-dev/Trackly"}
-                    className="w-5 h-5rounded-full"
-                  >
-                    <Image
-                      src={"/github-mark-white.svg"}
-                      alt="github"
-                      width={40}
-                      height={40}
-                    />
-                  </Link>
-                )}
-                <Globe size={21} />
-              </div>
-              <div className="flex flex-wrap gap-3 text-sm font-semibold mt-4">
-                <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
-                  Reactjs
-                </div>
-                <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
-                  Express
-                </div>
-                <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
-                  Redis
-                </div>
-                <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
-                  Motion
-                </div>
-                <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
-                  WebRTC
-                </div>
-              </div>
-              <div className="mt-4 text-sm font-semibold">
-                Whispr is a full-stack messaging platform inspired by WhatsApp,
-                built with real-time chat and WebRTC-powered video calling.
-                Users can send messages, start video calls, and stay connected
-                through a smooth, responsive UI. Built using React.js, Prisma,
-                Express, WebSockets, and WebRTC, it combines performance,
-                reliability, and modern UX — all in one app.
-              </div>
-              <div className="flex items-center font-bold gap-3 mt-6">
-                <div>Trackly</div>
-                {theme === "light" ? (
-                  <Link
-                    href={"https://github.com/akdevsaha-dev/whispr"}
-                    className="w-5 h-5  rounded-full"
-                  >
-                    <Image
-                      src={"/github-mark.svg"}
-                      alt="github"
-                      width={40}
-                      height={40}
-                    />
-                  </Link>
-                ) : (
-                  <Link
-                    href={"https://github.com/akdevsaha-dev/prwise"}
-                    className="w-5 h-5rounded-full"
-                  >
-                    <Image
-                      src={"/github-mark-white.svg"}
-                      alt="github"
-                      width={40}
-                      height={40}
-                    />
-                  </Link>
-                )}
-                <Globe size={21} />
-              </div>
-              <div className="flex flex-wrap gap-3 text-sm font-semibold mt-4">
-                <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
-                  Reactjs
-                </div>
-                <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
-                  Express
-                </div>
-                <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
-                  Google GenAI
-                </div>
-                <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
-                  Motion
-                </div>
-                <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
-                  Octokit
-                </div>
-              </div>
-              <div className="mt-4 text-sm font-semibold">
-                PR Wise is a sophisticated AI-powered SaaS platform that
-                automates and enhances the code review process for GitHub pull
-                requests. The application provides intelligent analysis,
-                automated feedback, and risk assessment for pull requests to
-                help development teams ship higher quality code faster.
-              </div>
-            </div>
-            <div className="mt-6 font-bold text-xl">Education</div>
-            <div className="flex justify-between items-center mt-4 md:px-4  ">
-              <div className="flex gap-3">
-                <div className="h-14 w-14 bg-white rounded-full">
+          />
+          <div className="font-bold text-xl">Cool things I built</div>
+          <div className="mt-4 md:px-4 px-2">
+            <div className="flex items-center font-bold gap-3">
+              <div className="">Trackly</div>
+              {theme === "light" ? (
+                <Link
+                  href={"https://github.com/akdevsaha-dev/Trackly"}
+                  className="w-5 h-5  rounded-full"
+                >
                   <Image
-                    src={"/college.png"}
-                    alt="clg"
-                    height={100}
-                    width={100}
+                    src={"/github-mark.svg"}
+                    alt="github"
+                    width={40}
+                    height={40}
                   />
+                </Link>
+              ) : (
+                <Link
+                  href={"https://github.com/akdevsaha-dev/Trackly"}
+                  className="w-5 h-5rounded-full"
+                >
+                  <Image
+                    src={"/github-mark-white.svg"}
+                    alt="github"
+                    width={40}
+                    height={40}
+                  />
+                </Link>
+              )}
+              <Globe size={21} />
+            </div>
+            <div className="flex gap-3 text-sm font-semibold mt-4">
+              <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
+                Nextjs
+              </div>
+              <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
+                tRPC
+              </div>
+              <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
+                Redis
+              </div>
+              <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
+                Motion
+              </div>
+            </div>
+            <div className="mt-4 text-sm font-semibold">
+              Gain meaningful insights without the noise. Track user journeys,
+              monitor performance in real time, and keep your site running
+              smoothly -even on serverless platforms with built-in cold-start
+              protection. All powered by a fast, privacy-first analytics
+              solution.
+            </div>
+            <div className="flex items-center font-bold gap-3 mt-6">
+              <div>Whispr</div>
+              {theme === "light" ? (
+                <Link
+                  href={"https://github.com/akdevsaha-dev/whispr"}
+                  className="w-5 h-5  rounded-full"
+                >
+                  <Image
+                    src={"/github-mark.svg"}
+                    alt="github"
+                    width={40}
+                    height={40}
+                  />
+                </Link>
+              ) : (
+                <Link
+                  href={"https://github.com/akdevsaha-dev/Trackly"}
+                  className="w-5 h-5rounded-full"
+                >
+                  <Image
+                    src={"/github-mark-white.svg"}
+                    alt="github"
+                    width={40}
+                    height={40}
+                  />
+                </Link>
+              )}
+              <Globe size={21} />
+            </div>
+            <div className="flex flex-wrap gap-3 text-sm font-semibold mt-4">
+              <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
+                Reactjs
+              </div>
+              <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
+                Express
+              </div>
+              <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
+                Redis
+              </div>
+              <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
+                Motion
+              </div>
+              <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
+                WebRTC
+              </div>
+            </div>
+            <div className="mt-4 text-sm font-semibold">
+              Whispr is a full-stack messaging platform inspired by WhatsApp,
+              built with real-time chat and WebRTC-powered video calling. Users
+              can send messages, start video calls, and stay connected through a
+              smooth, responsive UI. Built using React.js, Prisma, Express,
+              WebSockets, and WebRTC, it combines performance, reliability, and
+              modern UX — all in one app.
+            </div>
+            <div className="flex mt-4 items-center font-bold gap-3">
+              <div className="">Inktr</div>
+              {theme === "light" ? (
+                <Link
+                  href={"https://github.com/akdevsaha-dev/Inktr"}
+                  className="w-5 h-5  rounded-full"
+                >
+                  <Image
+                    src={"/github-mark.svg"}
+                    alt="github"
+                    width={40}
+                    height={40}
+                  />
+                </Link>
+              ) : (
+                <Link
+                  href={"https://github.com/akdevsaha-dev/Inktr"}
+                  className="w-5 h-5rounded-full"
+                >
+                  <Image
+                    src={"/github-mark-white.svg"}
+                    alt="github"
+                    width={40}
+                    height={40}
+                  />
+                </Link>
+              )}
+              <Globe size={21} />
+            </div>
+            <div className="flex gap-3 text-sm font-semibold mt-4">
+              <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
+                Nextjs
+              </div>
+              <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
+                Go
+              </div>
+              <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
+                Fiber
+              </div>
+              <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
+                Redis
+              </div>
+            </div>
+            <div className="mt-4 text-sm font-semibold">
+              Inktr is a modern, high-performance blogging platform built with
+              Go and Fiber, designed for speed, scalability, and simplicity. It
+              allows users to create, manage, and publish blog posts with a
+              clean and intuitive interface. With a focus on fast backend
+              performance and minimal latency, Inktr leverages Fiber’s
+              lightweight routing and Go’s concurrency to handle multiple users
+              and posts efficiently.
+            </div>
+            <div className="flex items-center font-bold gap-3 mt-6">
+              <div>Prwise</div>
+              {theme === "light" ? (
+                <Link
+                  href={"https://github.com/akdevsaha-dev/whispr"}
+                  className="w-5 h-5  rounded-full"
+                >
+                  <Image
+                    src={"/github-mark.svg"}
+                    alt="github"
+                    width={40}
+                    height={40}
+                  />
+                </Link>
+              ) : (
+                <Link
+                  href={"https://github.com/akdevsaha-dev/prwise"}
+                  className="w-5 h-5rounded-full"
+                >
+                  <Image
+                    src={"/github-mark-white.svg"}
+                    alt="github"
+                    width={40}
+                    height={40}
+                  />
+                </Link>
+              )}
+              <Globe size={21} />
+            </div>
+            <div className="flex flex-wrap gap-3 text-sm font-semibold mt-4">
+              <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
+                Reactjs
+              </div>
+              <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
+                Express
+              </div>
+              <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
+                Google GenAI
+              </div>
+              <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
+                Motion
+              </div>
+              <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
+                Octokit
+              </div>
+            </div>
+            <div className="mt-4 text-sm font-semibold">
+              PR Wise is a sophisticated AI-powered SaaS platform that automates
+              and enhances the code review process for GitHub pull requests. The
+              application provides intelligent analysis, automated feedback, and
+              risk assessment for pull requests to help development teams ship
+              higher quality code faster.
+            </div>
+          </div>
+          <div className="mt-6 font-bold text-xl">Education</div>
+          <div className="flex justify-between items-center mt-4 md:px-4 gap-2">
+            <div className="flex gap-2 sm:gap-3 flex-1 min-w-0">
+              <div className="h-12 w-12 sm:h-14 sm:w-14 bg-white rounded-full flex-shrink-0">
+                <Image
+                  src={"/college.png"}
+                  alt="clg"
+                  height={100}
+                  width={100}
+                />
+              </div>
+              <div className="flex flex-col justify-center min-w-0">
+                <div className="text-xs sm:text-sm font-bold leading-tight">
+                  Vellore Institute of Technology, Vellore
                 </div>
-                <div className="flex flex-col justify-center">
-                  <div className="text-sm font-bold">
-                    Vellore Institute of Technology, Vellore
+                <div className="text-[11px] sm:text-[13px]">
+                  Computer Applications
+                </div>
+              </div>
+            </div>
+            <div className="text-[11px] sm:text-[12px] md:text-md md:font-bold whitespace-nowrap flex-shrink-0">
+              2021-2024
+            </div>
+          </div>
+          <div className="mt-12 pt-8 border-t border-[#454228]/20 dark:border-neutral-700">
+            <div className="flex flex-col gap-6">
+              <div className="flex flex-col sm:flex-row justify-between gap-6">
+                <div className="flex flex-col gap-3">
+                  <div className="text-sm font-bold">Get in touch</div>
+                  <Link
+                    href="mailto:akdevsaha2003@gmail.com"
+                    className="flex gap-2 items-center text-sm hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors"
+                  >
+                    <Mail size={18} className="flex-shrink-0" />
+                    <span className="break-all">akdevsaha2003@gmail.com</span>
+                  </Link>
+                </div>
+                <div className="flex flex-col gap-3">
+                  <div className="text-sm font-bold">Connect</div>
+                  <div className="flex flex-wrap gap-4">
+                    <Link
+                      href="https://github.com/akdevsaha-dev"
+                      className="flex gap-2 items-center text-sm hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors"
+                      target="_blank"
+                    >
+                      <Github size={18} className="flex-shrink-0" />
+                      <span>GitHub</span>
+                    </Link>
+                    <Link
+                      href="https://twitter.com"
+                      className="flex gap-2 items-center text-sm hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors"
+                      target="_blank"
+                    >
+                      <Twitter size={18} className="flex-shrink-0" />
+                      <span>Twitter</span>
+                    </Link>
+                    <Link
+                      href="https://linkedin.com"
+                      className="flex gap-2 items-center text-sm hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors"
+                      target="_blank"
+                    >
+                      <Linkedin size={18} className="flex-shrink-0" />
+                      <span>LinkedIn</span>
+                    </Link>
                   </div>
-                  <div className="text-[13px] ">Computer Applications</div>
                 </div>
               </div>
-              <div className="text-[12px] md:text-md md:font-bold ">
-                2021-2024
+              <div className="text-center text-xs text-[#454228]/60 dark:text-neutral-500 py-4">
+                © {new Date().getFullYear()} Akdev Saha.
               </div>
             </div>
-            <div className="flex items-center justify-center mt-8">
-              <div className="w-20 h-4 bg-white rounded-full"></div>
-            </div>
-            <div className="flex w-full justify-between px-28 text-sm font-semibold mt-6">
-              <div className="flex gap-1">
-                <Mail size={18} />
-                akdevsaha2003@gmail.com
-              </div>
-              <div className="flex gap-1">
-                <Github size={16} />
-                Github
-              </div>
-              <div className="flex gap-1">
-                <Twitter size={16} />
-                Twitter
-              </div>
-              <div className="flex gap-1">
-                <Linkedin size={16} />
-                LinkedIn
-              </div>
-            </div>
-          </motion.div>
+          </div>
         </div>
       </div>
     </div>
