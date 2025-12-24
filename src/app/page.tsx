@@ -158,7 +158,7 @@ export default function Home() {
               ) : (
                 <Link
                   href={"https://github.com/akdevsaha-dev/Trackly"}
-                  className="w-5 h-5rounded-full"
+                  className="w-5 h-5 rounded-full"
                 >
                   <Image
                     src={"/github-mark-white.svg"}
@@ -168,7 +168,14 @@ export default function Home() {
                   />
                 </Link>
               )}
-              <Globe size={21} />
+
+              <Link
+                href={"https://trackly-nine.vercel.app/"}
+                target="_blank"
+                className="w-5 h-5 rounded-full"
+              >
+                <Globe size={21} />
+              </Link>
             </div>
             <div className="flex gap-3 text-sm font-semibold mt-4">
               <div className="bg-[#e9e9e0] dark:bg-black px-2 py-1 rounded-sm">
