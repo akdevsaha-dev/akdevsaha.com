@@ -5,6 +5,7 @@ import { useTheme } from "next-themes";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { GitHubCalendar } from "react-github-calendar";
 
 export const Experience = () => {
   const { theme } = useTheme();
@@ -173,12 +174,53 @@ export const Experience = () => {
               )}
             </div>
           </div>
-          <div className="mt-20 flex justify-between">
+          <div className="mt-16 dark:text-[#636c7e] text-[#7c838c] uppercase text-xs tracking-wide font-semibold">
+            Education
+          </div>
+          <div className="flex justify-between mt-5">
             <div>
-              <div>Vellore Institute of Technology, Vellore</div>
-              <div>2021-2025</div>
+              <div className="font-semibold">
+                Vellore Institute of Technology, Vellore
+              </div>
+              <div className="text-sm mt-2 dark:text-[#9ba1ae] text-[#4c5564]">
+                2021-2025
+              </div>
             </div>
-            <div>Computer Science</div>
+            <div className="text-sm dark:text-[#636c7e] text-[#7c838c]">
+              Computer Science
+            </div>
+          </div>
+          <div className="mt-10">
+            <div className="uppercase text-xs mb-3 font-semibold dark:text-[#636c7e] text-[#7c838c] tracking-wide">
+              github contributions
+            </div>
+            <div className="px-3 pt-5">
+              <GitHubCalendar
+                username="akdevsaha-dev"
+                blockSize={11}
+                fontSize={12}
+                theme={
+                  theme === "dark"
+                    ? undefined
+                    : {
+                        light: [
+                          "#ebedf0",
+                          "#9be9a8",
+                          "#40c463",
+                          "#30a14e",
+                          "#216e39",
+                        ],
+                        dark: [
+                          "#ebedf0",
+                          "#9be9a8",
+                          "#40c463",
+                          "#30a14e",
+                          "#216e39",
+                        ],
+                      }
+                }
+              />
+            </div>
           </div>
         </div>
       </div>
