@@ -117,42 +117,67 @@ export const Experience = () => {
                   : "unset",
               }}
             >
-              <p>
-                I've been building and experimenting on the product side for a
-                long time. Each previous product always feels naive in
-                hindsight, but looking back, I can see they were incrementally
-                better, each iteration teaching me something new about users,
-                infrastructure, and what it takes to build something people
-                actually want.
-              </p>
-              <p>
-                It started with MetaWiper during my sophomore year, a tool that
-                cleaned image metadata. No one would use it, but I was proud. It
-                was my first real attempt at shipping something complete.
-              </p>
-              <p>
-                Next came Stockic, a news app where I spent months doing serious
-                infrastructure work. This was where I learned to build systems
-                that could scale, not just features that looked good.
-              </p>
-              <p>
-                Then I worked on Gloss Card, and for the first time, a customer
-                actually wanted to buy it for their product. That validation,
-                knowing someone saw enough value to pay, was a turning point.
-              </p>
-              <p>
-                After that, I built NeuraLeap, where I had the most meaningful
-                user interactions yet, HRs from established firms. I worked on
-                data pipelines capable of handling 50 million LinkedIn profiles
-                and processing them with AI. The scale was different, the stakes
-                were higher, and the technical challenges forced me to level up.
-              </p>
-              <p>
-                Most recently, I worked on Meteor, an AI SEO toolkit at
-                Entrepreneurs First. This time, my product was being used by 6
-                YC-backed companies. Real users. Real traction. Real feedback
-                loops.
-              </p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Explicabo voluptas quibusdam qui voluptates ex, amet omnis,
+              aliquid ad obcaecati aspernatur aut ratione placeat. Minima
+              eligendi voluptatem, ipsam obcaecati blanditiis maiores! Qui minus
+              assumenda vero iste quod quos, nam adipisci deleniti id autem
+              itaque libero mollitia aut aliquam quae quis modi hic dolores a ex
+              suscipit? Reprehenderit dolor aspernatur rem, incidunt dolore quis
+              quas! Nesciunt maiores dolore et numquam molestiae ullam natus,
+              perferendis iste in quae adipisci veritatis reiciendis enim
+              assumenda optio ratione omnis laboriosam veniam magnam iusto
+              explicabo aspernatur. Exercitationem consectetur nostrum fugiat
+              magnam tenetur corporis quod perspiciatis quis aperiam. Libero
+              iusto fuga, officiis vero culpa autem, nulla alias dolores, cum
+              iste facilis vitae delectus. Voluptas doloribus quisquam ab qui
+              dolor iste suscipit ipsam autem enim beatae aperiam voluptatem
+              delectus cupiditate fugiat reiciendis maxime neque eveniet
+              provident, perspiciatis aliquam tenetur voluptatibus corporis
+              eligendi nesciunt. Nostrum numquam perferendis sint at corporis!
+              Iusto sequi nobis eos odit culpa dolores quidem debitis,
+              architecto dignissimos voluptate aliquam laboriosam obcaecati ab
+              fugiat velit dolor. Dicta, nisi qui aliquid officiis vel, sunt ad
+              sequi provident commodi aspernatur quisquam pariatur sit ab
+              excepturi nesciunt tempora et quo maiores laboriosam perspiciatis
+              voluptate saepe omnis iste facilis. Possimus cum unde eius
+              repellendus tempore! Neque, consectetur nihil inventore molestiae
+              minus atque assumenda dolor molestias voluptates et sint quibusdam
+              fuga eos nemo voluptatem quia earum itaque quasi deleniti quos!
+              Nihil asperiores autem dolores excepturi corporis numquam fugiat
+              dolorum officia ducimus quos quaerat odio laboriosam in cum ea
+              non, ratione quidem voluptatem consectetur vel maxime. Perferendis
+              molestias nostrum iure nemo ipsam praesentium eveniet aut atque
+              porro impedit magnam id et, quibusdam beatae eaque commodi,
+              exercitationem illum, est deleniti provident! Sapiente molestias
+              deleniti aliquam blanditiis sit! Optio iste fugit doloribus.
+              Laudantium veniam a voluptatum voluptatibus velit debitis
+              molestiae voluptate odio et expedita magnam blanditiis
+              exercitationem animi, nihil voluptates. Ex cumque maiores
+              doloremque iste ipsum? Inventore nemo molestias voluptatum porro
+              enim harum animi? Labore, soluta earum ab et facere odit commodi
+              repellat doloribus. Labore incidunt quis ullam minima quidem
+              architecto, illum error tempore, doloremque perspiciatis, dolores
+              facere. Corporis sunt praesentium sed, ipsum doloremque veritatis
+              molestiae dolor autem doloribus. Nostrum dolores quam obcaecati,
+              architecto rem ratione quod hic blanditiis dignissimos ab.
+              Accusamus velit pariatur, officia maxime soluta architecto harum
+              ut aut tempore doloremque? Sint corrupti architecto ab maiores,
+              suscipit enim dolores facere magnam voluptate consequuntur ipsam
+              asperiores dolore odit vitae numquam quo nulla qui quod, deleniti
+              provident dicta iure a fugit! Est, quibusdam voluptate molestias
+              repellendus doloremque ut itaque? Mollitia illo enim qui.
+              Praesentium, alias maxime temporibus amet commodi numquam
+              voluptatum, quia officia eius cupiditate, et eum suscipit ratione
+              sunt quidem sit hic ad consequatur nesciunt dolor ea reiciendis
+              nobis nam. Recusandae modi, vitae quaerat doloremque repudiandae
+              aliquid laudantium architecto accusantium dignissimos, delectus
+              nulla amet voluptatum magni corporis, repellat reprehenderit
+              exercitationem assumenda odit quis. Porro eos sapiente unde
+              blanditiis, provident nihil doloremque, dolorem culpa et deleniti
+              ullam? Ea quasi voluptatum ratione enim, eligendi, saepe aperiam
+              error, tempore veritatis illo nisi corporis animi placeat
+              necessitatibus dicta?
             </div>
             <div
               className="inline-flex justify-center h-14 items-center gap-1 cursor-pointer"
