@@ -91,7 +91,7 @@ export const TechStack = () => {
                   className="grayscale brightness-75 hover:grayscale-0 hover:brightness-100 transition"
                 />
                 <img
-                  src="https://cdn.simpleicons.org/go?viewbox=auto&size=2   0"
+                  src="https://cdn.simpleicons.org/go?viewbox=auto&size=20"
                   className="grayscale brightness-75 hover:grayscale-0 hover:brightness-100 transition"
                 />
                 <img
@@ -187,13 +187,13 @@ export const TechStack = () => {
               : "max-h-0 opacity-0 -translate-y-4"
           }`}
         >
-          <div className="text-lg grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 min-h-100 dark:text-[#9fa7b6] text-[#626770]">
+          <div className="text-lg grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 min-h-100 dark:text-[#9fa7b6] text-[#788090]">
             <div className=" ">
               <div className="uppercase border-b text-xs pb-2 dark:text-[#595e68] text-[#bbbdc2] tracking-widest font-semibold dark:border-b-[#2a2b2c] border-b-[#e6e9ef]">
                 Languages
               </div>
               <div className="mt-4 space-y-2 font-md">
-                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef] px-2 h-10 hover:dark:bg-white/2 hover:bg-black/2  rounded-md group items-center">
+                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef] px-2 h-10 hover:bg-[blue]/3 hover:dark:bg-white/2  rounded-md group items-center">
                   <img
                     src="https://cdn.simpleicons.org/go?viewbox=auto&size=10"
                     className="grayscale transition duration-300 dark:brightness-75 group-hover:grayscale-0 group-hover:brightness-100 "
@@ -202,7 +202,7 @@ export const TechStack = () => {
                     Go
                   </div>
                 </div>
-                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef] px-2 h-10 hover:bg-white/2 rounded-md group items-center">
+                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef] px-2 h-10 hover:bg-[blue]/3 hover:dark:bg-white/2 rounded-md group items-center">
                   <img
                     src="https://cdn.simpleicons.org/javascript?viewbox=auto&size=20"
                     className="grayscale transition duration-300 brightness-40 group-hover:grayscale-0 group-hover:brightness-100 "
@@ -211,7 +211,7 @@ export const TechStack = () => {
                     JavaScript
                   </div>
                 </div>
-                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef] px-2 h-10 hover:bg-white/2 rounded-md group items-center">
+                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef] px-2 h-10 hover:bg-[blue]/3 hover:dark:bg-white/2 rounded-md group items-center">
                   <img
                     src="https://cdn.simpleicons.org/typescript?viewbox=auto&size=20"
                     className="grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 transition duration-300"
@@ -220,7 +220,7 @@ export const TechStack = () => {
                     TypeScript
                   </div>
                 </div>
-                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef]  px-2 h-10 hover:bg-white/2 rounded-md group items-center">
+                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef]  px-2 h-10 hover:bg-[blue]/3 hover:dark:bg-white/2 rounded-md group items-center">
                   <img
                     src="https://cdn.simpleicons.org/cplusplus?viewbox=auto&size=20"
                     className="grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 transition duration-300"
@@ -236,7 +236,7 @@ export const TechStack = () => {
                 Frontend
               </div>
               <div className="mt-4 space-y-2  font-md">
-                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef] px-2 h-10 hover:bg-white/2  rounded-md group items-center">
+                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef] px-2 h-10 hover:bg-[blue]/3 hover:dark:bg-white/2  rounded-md group items-center">
                   <img
                     src="https://cdn.simpleicons.org/react?viewbox=auto&size=20"
                     className="grayscale brightness-75 group-hover:grayscale-0 transition duration-300 group-hover:brightness-100 "
@@ -245,7 +245,7 @@ export const TechStack = () => {
                     React
                   </div>
                 </div>
-                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef px-2 h-10 hover:bg-white/2  rounded-md group items-center">
+                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef px-2 h-10 hover:bg-[blue]/3 hover:dark:bg-white/2  rounded-md group items-center">
                   <img
                     src="https://cdn.simpleicons.org/nextdotjs/gray?viewbox=auto&size=20"
                     className="grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 transition duration-200"
@@ -254,25 +254,25 @@ export const TechStack = () => {
                     Next.js
                   </div>
                 </div>
-                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef px-2 h-10 hover:bg-white/2  rounded-md group items-center">
+                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef px-2 h-10 hover:bg-[blue]/3 hover:dark:bg-white/2  rounded-md group items-center">
                   <img
-                    src="https://cdn.simpleicons.org/tailwindcss?viewbox=auto&size=15"
+                    src="https://cdn.simpleicons.org/tailwindcss?viewbox=auto&size=13"
                     className="grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 transition duration-200"
                   />
                   <div className="text-sm group-hover:dark:text-white group-hover:text-black transition-colors duration-300">
                     Tailwind CSS
                   </div>
                 </div>
-                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef px-2 h-10 hover:bg-white/2  rounded-md group items-center">
+                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef px-2 h-10 hover:bg-[blue]/3 hover:dark:bg-white/2  rounded-md group items-center">
                   <img
-                    src="https://cdn.simpleicons.org/shadcnui/gray?viewbox=auto&size=20"
+                    src="https://cdn.simpleicons.org/shadcnui/gray?viewbox=auto&size=17"
                     className="grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 transition duration-200"
                   />
                   <div className="text-sm group-hover:dark:text-white group-hover:text-black transition-colors duration-300">
                     Shadcn UI
                   </div>
                 </div>
-                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef px-2 h-10 hover:bg-white/2  rounded-md group items-center">
+                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef px-2 h-10 hover:bg-[blue]/3 hover:dark:bg-white/2  rounded-md group items-center">
                   <img
                     src="https://cdn.simpleicons.org/framer?viewbox=auto&size=20"
                     className="grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 transition duration-200"
@@ -288,7 +288,7 @@ export const TechStack = () => {
                 Backend & DB
               </div>
               <div className="mt-4 space-y-2">
-                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef px-2 h-10 hover:bg-white/2  rounded-md group items-center">
+                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef px-2 h-10 hover:bg-[blue]/3 hover:dark:bg-white/2  rounded-md group items-center">
                   <img
                     src="https://cdn.simpleicons.org/trpc?viewbox=auto&size=20"
                     className="grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 transition duration-200"
@@ -297,7 +297,7 @@ export const TechStack = () => {
                     tRPC
                   </div>
                 </div>
-                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef px-2 h-10 hover:bg-white/2  rounded-md group items-center">
+                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef px-2 h-10 hover:bg-[blue]/3 hover:dark:bg-white/2  rounded-md group items-center">
                   <img
                     src="https://cdn.simpleicons.org/nodedotjs?viewbox=auto&size=20"
                     className="grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 transition duration-200"
@@ -306,16 +306,16 @@ export const TechStack = () => {
                     Node.js
                   </div>
                 </div>
-                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef px-2 h-10 hover:bg-white/2  rounded-md group items-center">
+                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef px-2 h-10 hover:bg-[blue]/3 hover:dark:bg-white/2  rounded-md group items-center">
                   <img
-                    src="https://cdn.simpleicons.org/postgresql?viewbox=auto&size=22"
+                    src="https://cdn.simpleicons.org/postgresql?viewbox=auto&size=20"
                     className="grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 transition duration-200"
                   />
                   <div className="text-sm group-hover:dark:text-white group-hover:text-black transition-colors duration-300">
                     PostgreSQL
                   </div>
                 </div>
-                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef px-2 h-10 hover:bg-white/2  rounded-md group items-center">
+                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef px-2 h-10 hover:bg-[blue]/3 hover:dark:bg-white/2  rounded-md group items-center">
                   <img
                     src="https://cdn.simpleicons.org/mongodb?viewbox=auto&size=20"
                     className="grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 transition duration-200"
@@ -324,42 +324,32 @@ export const TechStack = () => {
                     MongoDB
                   </div>
                 </div>
-                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef px-2 h-10 hover:bg-white/2  rounded-md group items-center">
+                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef px-2 h-10 hover:bg-[blue]/3 hover:dark:bg-white/2  rounded-md group items-center">
                   <img
-                    src="https://cdn.simpleicons.org/redis?viewbox=auto&size=20"
+                    src="https://cdn.simpleicons.org/redis?viewbox=auto&size=17"
                     className="grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 transition duration-200"
                   />
                   <div className="text-sm group-hover:dark:text-white group-hover:text-black transition-colors duration-300">
                     Redis
                   </div>
                 </div>
-                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef px-2 h-10 hover:bg-white/2  rounded-md group items-center">
+                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef px-2 h-10 hover:bg-[blue]/3 hover:dark:bg-white/2  rounded-md group items-center">
                   <img
-                    src="https://cdn.simpleicons.org/docker?viewbox=auto&size=20"
+                    src="https://cdn.simpleicons.org/docker?viewbox=auto&size=17"
                     className="grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 transition duration-200"
                   />
                   <div className="text-sm group-hover:dark:text-white group-hover:text-black transition-colors duration-300">
                     Docker
                   </div>
                 </div>
-                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef px-2 h-10 hover:bg-white/2  rounded-md group items-center">
-                  <img
-                    src="https://cdn.simpleicons.org/nginx?viewbox=auto&size=20"
-                    className="grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 transition duration-200"
-                  />
-                  <div className="text-sm group-hover:dark:text-white group-hover:text-black transition-colors duration-300">
-                    Nginx
-                  </div>
-                </div>
               </div>
             </div>
-            {/* New Infra & Tools column */}
             <div className="">
               <div className="uppercase tracking-wider border-b dark:text-[#595e68] text-[#bbbdc2] text-xs font-semibold pb-2 dark:border-b-[#2a2b2c] border-b-[#e6e9ef]">
                 Infra & Tools
               </div>
               <div className="mt-4 space-y-2">
-                <div className="flex gap-3 hover:border  dark:border-[#2a2b2c] border-[#e6e9ef] px-2 h-10 hover:bg-white/2 rounded-md group items-center">
+                <div className="flex gap-3 hover:border  dark:border-[#2a2b2c] border-[#e6e9ef] px-2 h-10 hover:bg-[blue]/3 hover:dark:bg-white/2 rounded-md group items-center">
                   <img
                     src="https://cdn.simpleicons.org/github/gray?viewbox=auto&size=20"
                     className="grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 transition duration-200"
@@ -368,13 +358,49 @@ export const TechStack = () => {
                     GitHub
                   </div>
                 </div>
-                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef] px-2 h-10 hover:bg-white/2 rounded-md group items-center">
+                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef px-2 h-10 hover:bg-[blue]/3 hover:dark:bg-white/2  rounded-md group items-center">
+                  <img
+                    src="https://cdn.simpleicons.org/googlecloud/15?viewbox=auto&size=20"
+                    className="grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 transition duration-200"
+                  />
+                  <div className="text-sm group-hover:dark:text-white group-hover:text-black transition-colors duration-300">
+                    Google Cloud
+                  </div>
+                </div>
+                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef] px-2 h-10 hover:bg-[blue]/3 hover:dark:bg-white/2 rounded-md group items-center">
                   <img
                     src="https://cdn.simpleicons.org/vercel/gray?viewbox=auto&size=20"
                     className="grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 transition duration-200"
                   />
                   <div className="text-sm group-hover:dark:text-white group-hover:text-black transition-colors duration-300">
                     Vercel
+                  </div>
+                </div>
+                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef px-2 h-10 hover:bg-[blue]/3 hover:dark:bg-white/2  rounded-md group items-center">
+                  <img
+                    src="https://cdn.simpleicons.org/nginx?viewbox=auto&size=20"
+                    className="grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 transition duration-200"
+                  />
+                  <div className="text-sm group-hover:dark:text-white group-hover:text-black transition-colors duration-300">
+                    Nginx
+                  </div>
+                </div>
+                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef px-2 h-10 hover:bg-[blue]/3 hover:dark:bg-white/2  rounded-md group items-center">
+                  <img
+                    src="https://cdn.simpleicons.org/git?viewbox=auto&size=20"
+                    className="grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 transition duration-200"
+                  />
+                  <div className="text-sm group-hover:dark:text-white group-hover:text-black transition-colors duration-300">
+                    Git
+                  </div>
+                </div>
+                <div className="flex gap-3 hover:border dark:border-[#2a2b2c] border-[#e6e9ef px-2 h-10 hover:bg-[blue]/3 hover:dark:bg-white/2  rounded-md group items-center">
+                  <img
+                    src="https://cdn.simpleicons.org/docker?viewbox=auto&size=15"
+                    className="grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 transition duration-200"
+                  />
+                  <div className="text-sm group-hover:dark:text-white group-hover:text-black transition-colors duration-300">
+                    Docker
                   </div>
                 </div>
               </div>

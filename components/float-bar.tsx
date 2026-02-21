@@ -1,5 +1,4 @@
 import { Github, Linkedin, QrCode } from "lucide-react";
-import Image from "next/image";
 
 export const FloatBar = () => {
   return (

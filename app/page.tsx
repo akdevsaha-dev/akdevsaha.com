@@ -1,7 +1,10 @@
 import { About } from "@/components/about";
 import { Experience } from "@/components/experience";
 import { FloatBar } from "@/components/float-bar";
+import { Library } from "@/components/library";
+import { MoreAbout } from "@/components/more";
 import { TechStack } from "@/components/tech-stack";
+import { Timer } from "@/components/timer";
 import { ModeToggle } from "@/components/toggle";
 export default function Home() {
   return (
@@ -13,6 +16,9 @@ export default function Home() {
         <About />
         <Experience />
         <TechStack />
+        <Library />
+        <MoreAbout />
+        <Timer/>
       </div>
       <FloatBar />
     </div>
