@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const MoreAbout = () => {
   return (
     <div className="px-3 md:px-8 mt-20">
@@ -11,7 +13,17 @@ export const MoreAbout = () => {
         refining product architecture, or understanding how a solution works at
         its core.
       </div>
-      <div className="dark:text-[#9ba1ae] text-[#51555a] mt-50 text-lg leading-8">
+      <div className="flex items-center justify-center">
+        <Image
+          className="mt-10"
+          src={"/me.jpg"}
+          width={200}
+          height={200}
+          alt="me"
+        />
+      </div>
+
+      <div className="dark:text-[#9ba1ae] text-[#51555a] mt-10 text-lg leading-8">
         Outside of engineering, I value reflection and real-world perspective. I
         believe the best products are built by people who explore broadly and
         think deeply. That balance between technical correctness and human

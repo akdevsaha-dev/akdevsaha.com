@@ -51,7 +51,7 @@ export const About = () => {
       ${isMusicPlaying ? "translate-x-0" : "translate-x-0"}
     `}
           >
-            <div className="opacity-80 text-sm pl-10">{time} IST</div>
+            <div className="opacity-80 text-sm font-medium pl-10">{time} IST</div>
             <Dot className="text-slate-500 opacity-50" />
             <div className="text-xs font-medium">LOFI</div>
 
@@ -100,7 +100,7 @@ export const About = () => {
           creating scalable, user-focused products by combining engineering,
           product thinking, and real-world business needs.
         </div>
-        <p className="md:text-xl font-mono mt-4">
+        <p className="md:text-xl  mt-4">
           Whether it’s a side project, or just tinkering with new tech, I’m
           usually deep in code, figuring things out and pushing things live.
         </p>
