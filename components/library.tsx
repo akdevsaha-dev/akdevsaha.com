@@ -14,12 +14,24 @@ export const Library = () => {
           className="underline dark:text-white text-black cursor-pointer hover:dark:text-[#e0e4ed] hover:text-[#92959e] underline-offset-3"
         >
           Medium
-        </a>{" "}   
+        </a>{" "}
         instead of building a custom blog. Rather than reinventing
         infrastructure, I choose a mature platform that lets me focus on what
         truly matters. sharing practical insights on new technology, product
         strategy, and scalable technical architecture.
       </div>
+      <p className="mt-10 uppercase text-xs font-semibold dark:text-[#636c7e] text-[#94969c]">
+        Link to blogs
+      </p>
+      <p className="mt-6 opacity-25 hover:opacity-75 duration-200 underline underline-offset-4">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://medium.com/@akdevsaha.dev/a-beginners-guide-to-different-amazon-web-services-aws-services-970c87d6f935"
+        >
+        A beginners guide to different Amazon Web Services(AWS) services.
+        </a>
+      </p>
 
       <div className="mt-14 uppercase dark:text-[#636c7e] text-[#94969c] text-xs font-semibold tracking-widest">
         Library
@@ -30,7 +42,9 @@ export const Library = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-3">
         {devContent.map((c, idx) => (
           <div key={idx} className="h-10 mt-1">
-            <div className="dark:text-white text-black hover:underline underline-offset-4 dark:decoration-[#1e232e] decoration-[#c5c7cf]">{c.title}</div>
+            <div className="dark:text-white text-black hover:underline underline-offset-4 dark:decoration-[#1e232e] decoration-[#c5c7cf]">
+              {c.title}
+            </div>
             <div className="dark:text-[#6a6e79] text-[#8c9099] text-xs">
               {c.author}
             </div>

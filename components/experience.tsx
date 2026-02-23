@@ -25,7 +25,7 @@ export const Experience = () => {
   if (!mounted) return null;
   return (
     <div className="w-full px-3 md:px-8">
-      <div className="mt-7 font-semibold text-xs tracking-widest text-zinc-400">
+      <div className="mt-10 font-semibold text-xs tracking-widest text-zinc-400">
         PROJECT EXPERIENCE
       </div>
       <div className="mt-4">
@@ -61,7 +61,7 @@ export const Experience = () => {
                   </Link>
                 </div>
                 <div
-                  className={`w-full dark:text-[#9ba1ae] pr-15 text-[#4c5564] text-sm mt-3 overflow-hidden transition-all duration-300 ease-out`}
+                  className={`w-full dark:text-[#9ba1ae] md:pr-15 text-[#4c5564] text-sm mt-3 overflow-hidden transition-all duration-300 ease-out`}
                   style={{
                     display: "-webkit-box",
                     WebkitBoxOrient: "vertical",
@@ -101,7 +101,7 @@ export const Experience = () => {
             In Between These Experiences
           </div>
           <div
-            className={`min-h-40 w-full border mt-7 rounded-lg dark:border-[#262c3a] ${!isjourneyExpanded ? "px-7 pt-7 pb-2" : "p-14"} transition-all duration-200`}
+            className={`min-h-40 w-full border mt-7 rounded-lg dark:border-[#262c3a] ${!isjourneyExpanded ? "px-7 pt-7 pb-2" : "p-8 md:p-14"} transition-all duration-200`}
           >
             <div className="text-lg font-semibold">
               The Product Building Journey
@@ -202,16 +202,16 @@ export const Experience = () => {
           <div className="mt-16 dark:text-[#636c7e] text-[#7c838c] uppercase text-xs tracking-wide font-semibold">
             Education
           </div>
-          <div className="flex justify-between mt-5">
-            <div>
+          <div className="flex flex-col md:flex-row md:justify-between mt-5">
+            <div className="flex flex-col">
               <div className="font-semibold">
                 Vellore Institute of Technology, Vellore
               </div>
-              <div className="text-sm mt-2 dark:text-[#9ba1ae] text-[#4c5564]">
+              <div className="text-sm mt-2 dark:text-[#9ba1ae] text-[#4c5564] order-3 md:order-0">
                 2021-2025
               </div>
             </div>
-            <div className="text-sm dark:text-[#636c7e] text-[#7c838c]">
+            <div className="text-sm dark:text-[#636c7e] text-[#7c838c] order-2 md:order-0">
               Computer Science
             </div>
           </div>
@@ -222,7 +222,7 @@ export const Experience = () => {
             <div className="px-3 pt-5">
               <GitHubCalendar
                 username="akdevsaha-dev"
-                blockSize={11}
+                blockSize={10}
                 fontSize={12}
                 theme={
                   theme === "dark"

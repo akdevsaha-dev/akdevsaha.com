@@ -39,7 +39,7 @@ export const About = () => {
             alt="pfp"
             className="filter w-40 h-40 transition-all duration-500 ease-out  md:w-55 md:h-55 grayscale mask-b-from-20% mask-b-to-99% border-b border-neutral-100 mx-30"
           />
-          <div className="text-7xl font-bold mt-1 transition-colors delay-500 duration-300 ">
+          <div className="md:text-7xl text-5xl font-bold mt-1 text-center transition-colors delay-300 duration-300 ">
             Akdev Saha
           </div>
         </div>

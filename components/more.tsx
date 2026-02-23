@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const MoreAbout = () => {
   return (
@@ -36,11 +37,19 @@ export const MoreAbout = () => {
       <div className="dark:text-[#9ba1ae] text-[#51555a] text-lg mt-5">
         Connect with me on{" "}
         <span className="dark:text-white text-black hover:dark:text-[#d3d6de] hover:text-[#7e828a] underline underline-offset-4">
-          LinkedIn
+          <Link
+            href={"https://www.linkedin.com/in/akdevsaha/"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </Link>
         </span>{" "}
         or shoot an{" "}
         <span className="dark:text-white text-black hover:dark:text-[#d3d6de] hover:text-[#7e828a] underline underline-offset-4">
-          email
+          <Link href={"mailto:akdevsaha.dev@gmail.com"}>
+            email
+          </Link>
         </span>
       </div>
     </div>
