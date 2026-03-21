@@ -23,13 +23,23 @@ export const Library = () => {
       <p className="mt-10 uppercase text-xs font-semibold dark:text-[#636c7e] text-[#94969c]">
         Link to blogs
       </p>
-      <p className="mt-6 opacity-25 hover:opacity-75 duration-200 underline underline-offset-4">
+      <p className="mt-6 opacity-45 hover:opacity-95 duration-200 underline underline-offset-4">
         <a
           target="_blank"
           rel="noopener noreferrer"
           href="https://medium.com/@akdevsaha.dev/a-beginners-guide-to-different-amazon-web-services-aws-services-970c87d6f935"
         >
-        A beginners guide to different Amazon Web Services(AWS) services.
+          A beginners guide to different Amazon Web Services(AWS) services.
+        </a>
+      </p>
+      <p className="mt-6 opacity-45 hover:opacity-95 duration-200 underline underline-offset-4">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://medium.com/@akdevsaha.dev/how-to-fix-no-space-left-on-device-the-ultimate-docker-cleanup-guide-8494f6e2bb61"
+        >
+          How to Fix “No Space Left on Device”: The Ultimate Docker Cleanup
+          Guide
         </a>
       </p>
 
