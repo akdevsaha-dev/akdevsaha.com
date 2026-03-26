@@ -61,7 +61,7 @@ export const Experience = () => {
                   </Link>
                 </div>
                 <div
-                  className={`w-full dark:text-[#9ba1ae] md:pr-15 text-[#4c5564] text-sm mt-3 overflow-hidden transition-all duration-300 ease-out`}
+                  className={`w-full whitespace-pre-line dark:text-[#9ba1ae] md:pr-15 text-[#4c5564] text-sm mt-3 overflow-hidden transition-all duration-300 ease-out`}
                   style={{
                     display: "-webkit-box",
                     WebkitBoxOrient: "vertical",
@@ -228,21 +228,21 @@ export const Experience = () => {
                   theme === "dark"
                     ? undefined
                     : {
-                        light: [
-                          "#ebedf0",
-                          "#9be9a8",
-                          "#40c463",
-                          "#30a14e",
-                          "#216e39",
-                        ],
-                        dark: [
-                          "#ebedf0",
-                          "#9be9a8",
-                          "#40c463",
-                          "#30a14e",
-                          "#216e39",
-                        ],
-                      }
+                      light: [
+                        "#ebedf0",
+                        "#9be9a8",
+                        "#40c463",
+                        "#30a14e",
+                        "#216e39",
+                      ],
+                      dark: [
+                        "#ebedf0",
+                        "#9be9a8",
+                        "#40c463",
+                        "#30a14e",
+                        "#216e39",
+                      ],
+                    }
                 }
               />
             </div>
