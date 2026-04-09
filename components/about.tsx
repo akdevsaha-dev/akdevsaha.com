@@ -33,6 +33,7 @@ export const About = () => {
         <div className="h-55 w-55 rounded-full z-10  -translate-x-1/2 left-1/2  absolute"></div>
         <div className="flex flex-col items-center -mt-6 md:pt-10">
           <Image
+            priority
             src={"/pfp.png"}
             height={220}
             width={220}
@@ -51,7 +52,9 @@ export const About = () => {
       ${isMusicPlaying ? "translate-x-0" : "translate-x-0"}
     `}
           >
-            <div className="opacity-80 text-sm font-medium pl-10">{time} IST</div>
+            <div className="opacity-80 text-sm font-medium pl-10">
+              {time} IST
+            </div>
             <Dot className="text-slate-500 opacity-50" />
             <div className="text-xs font-medium">LOFI</div>
 

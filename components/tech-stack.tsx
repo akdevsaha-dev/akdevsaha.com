@@ -10,8 +10,8 @@ export const TechStack = () => {
         tech stack
       </div>
       <div className="mt-6 text-lg tracking-wide dark:text-[#9ba1ae] text-[#4c5564]">
-        I'm a generalist at heart who can build with anything, but here's the
-        core stack I've spent the most time with:
+        I&apos;m a generalist at heart who can build with anything, but
+        here&apos;s the core stack I&apos;ve spent the most time with:
       </div>
       <div className="flex justify-end mt-7 dark:text-[#9ba1ae] cursor-default text-[#808389] hover:text-black dark:hover:text-white transition-all duration-500 font-semibold">
         <div

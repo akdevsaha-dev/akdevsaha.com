@@ -228,21 +228,21 @@ export const Experience = () => {
                   theme === "dark"
                     ? undefined
                     : {
-                      light: [
-                        "#ebedf0",
-                        "#9be9a8",
-                        "#40c463",
-                        "#30a14e",
-                        "#216e39",
-                      ],
-                      dark: [
-                        "#ebedf0",
-                        "#9be9a8",
-                        "#40c463",
-                        "#30a14e",
-                        "#216e39",
-                      ],
-                    }
+                        light: [
+                          "#ebedf0",
+                          "#9be9a8",
+                          "#40c463",
+                          "#30a14e",
+                          "#216e39",
+                        ],
+                        dark: [
+                          "#ebedf0",
+                          "#9be9a8",
+                          "#40c463",
+                          "#30a14e",
+                          "#216e39",
+                        ],
+                      }
                 }
               />
             </div>

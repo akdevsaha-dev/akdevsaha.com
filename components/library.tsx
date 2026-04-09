@@ -1,4 +1,5 @@
 import { devContent } from "@/data/library.content";
+import Link from "next/link";
 
 export const Library = () => {
   return (
@@ -52,9 +53,12 @@ export const Library = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-3">
         {devContent.map((c, idx) => (
           <div key={idx} className="h-10 mt-1">
-            <div className="dark:text-white text-black hover:underline underline-offset-4 dark:decoration-[#1e232e] decoration-[#c5c7cf]">
+            <Link
+              href={c.link || ""}
+              className="dark:text-white text-black hover:underline text-sm underline-offset-4 dark:decoration-[#1e232e] decoration-[#c5c7cf]"
+            >
               {c.title}
-            </div>
+            </Link>
             <div className="dark:text-[#6a6e79] text-[#8c9099] text-xs">
               {c.author}
             </div>
