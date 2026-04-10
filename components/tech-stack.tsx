@@ -37,18 +37,17 @@ export const TechStack = () => {
       <div className="relative mt-10 overflow-hidden">
         {/* Marquee */}
         <div
-          className={`transition-all duration-500 ease-out ${
-            isFullStack
+          className={`transition-all duration-500 ease-out ${isFullStack
               ? "opacity-0 translate-y-4 pointer-events-none"
               : "opacity-100 translate-y-0"
-          }`}
+            }`}
         >
           <div className="overflow-hidden w-full">
             <div className="scroll-content">
-              <div className="flex gap-8">
+              <div className="flex gap-12 pr-12 shrink-0">
                 <img
                   src="https://cdn.simpleicons.org/javascript?viewbox=auto&size=30"
-                  className="grayscale brightness-75 hover:grayscale-0 hover:brightness-100 transition"
+                  className="grayscale brightness-75 hover:grayscale-0 hover:brightness-100 transition shrink-0"
                 />
                 <img
                   src="https://cdn.simpleicons.org/react?viewbox=auto&size=30"
@@ -91,7 +90,7 @@ export const TechStack = () => {
                   className="grayscale brightness-75 hover:grayscale-0 hover:brightness-100 transition"
                 />
                 <img
-                  src="https://cdn.simpleicons.org/go?viewbox=auto&size=20"
+                  src="https://cdn.simpleicons.org/go?viewbox=auto&size=30"
                   className="grayscale brightness-75 hover:grayscale-0 hover:brightness-100 transition"
                 />
                 <img
@@ -111,7 +110,7 @@ export const TechStack = () => {
                   className="grayscale brightness-75 hover:grayscale-0 hover:brightness-100 transition"
                 />
               </div>
-              <div className="flex gap-8">
+              <div className="flex gap-12 pr-12 shrink-0">
                 <img
                   src="https://cdn.simpleicons.org/javascript?viewbox=auto&size=30"
                   className="grayscale brightness-75 hover:grayscale-0 hover:brightness-100 transition"
@@ -181,11 +180,10 @@ export const TechStack = () => {
           </div>
         </div>
         <div
-          className={`transition-all duration-700 ease-in-out ${
-            isFullStack
+          className={`transition-all duration-700 ease-in-out ${isFullStack
               ? "min-h-150 opacity-100 translate-y-0 mt-4"
               : "max-h-0 opacity-0 -translate-y-4"
-          }`}
+            }`}
         >
           <div className="text-lg grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 min-h-100 dark:text-[#9fa7b6] text-[#788090]">
             <div className=" ">

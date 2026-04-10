@@ -121,6 +121,7 @@
     @apply border-border outline-ring/50;
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply transition-colors duration-400;
     @apply bg-background text-foreground;
@@ -131,7 +132,6 @@
 .scroll-content {
   display: flex;
   width: max-content;
-  gap: 2rem;
   animation: scroll-left 30s linear infinite;
 }
 
@@ -139,10 +139,12 @@
   from {
     transform: translateX(0);
   }
+
   to {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 }
+
 input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   width: 8px;
@@ -155,6 +157,7 @@ input[type="range"]::-webkit-slider-thumb {
 .dark input[type="range"]::-webkit-slider-thumb {
   background: #94a3b8;
 }
+
 input[type="range"]::-moz-range-thumb {
   width: 8px;
   height: 8px;
@@ -162,6 +165,7 @@ input[type="range"]::-moz-range-thumb {
   background: #94a3b8;
   cursor: pointer;
 }
+
 input[type="range"] {
   -webkit-appearance: none;
   appearance: none;

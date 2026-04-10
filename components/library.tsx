@@ -54,6 +54,7 @@ export const Library = () => {
         {devContent.map((c, idx) => (
           <div key={idx} className="h-10 mt-1">
             <Link
+              target="_blank"
               href={c.link || ""}
               className="dark:text-white text-black hover:underline text-sm underline-offset-4 dark:decoration-[#1e232e] decoration-[#c5c7cf]"
             >

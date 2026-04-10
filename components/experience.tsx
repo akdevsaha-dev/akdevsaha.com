@@ -117,67 +117,27 @@ export const Experience = () => {
                   : "unset",
               }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Explicabo voluptas quibusdam qui voluptates ex, amet omnis,
-              aliquid ad obcaecati aspernatur aut ratione placeat. Minima
-              eligendi voluptatem, ipsam obcaecati blanditiis maiores! Qui minus
-              assumenda vero iste quod quos, nam adipisci deleniti id autem
-              itaque libero mollitia aut aliquam quae quis modi hic dolores a ex
-              suscipit? Reprehenderit dolor aspernatur rem, incidunt dolore quis
-              quas! Nesciunt maiores dolore et numquam molestiae ullam natus,
-              perferendis iste in quae adipisci veritatis reiciendis enim
-              assumenda optio ratione omnis laboriosam veniam magnam iusto
-              explicabo aspernatur. Exercitationem consectetur nostrum fugiat
-              magnam tenetur corporis quod perspiciatis quis aperiam. Libero
-              iusto fuga, officiis vero culpa autem, nulla alias dolores, cum
-              iste facilis vitae delectus. Voluptas doloribus quisquam ab qui
-              dolor iste suscipit ipsam autem enim beatae aperiam voluptatem
-              delectus cupiditate fugiat reiciendis maxime neque eveniet
-              provident, perspiciatis aliquam tenetur voluptatibus corporis
-              eligendi nesciunt. Nostrum numquam perferendis sint at corporis!
-              Iusto sequi nobis eos odit culpa dolores quidem debitis,
-              architecto dignissimos voluptate aliquam laboriosam obcaecati ab
-              fugiat velit dolor. Dicta, nisi qui aliquid officiis vel, sunt ad
-              sequi provident commodi aspernatur quisquam pariatur sit ab
-              excepturi nesciunt tempora et quo maiores laboriosam perspiciatis
-              voluptate saepe omnis iste facilis. Possimus cum unde eius
-              repellendus tempore! Neque, consectetur nihil inventore molestiae
-              minus atque assumenda dolor molestias voluptates et sint quibusdam
-              fuga eos nemo voluptatem quia earum itaque quasi deleniti quos!
-              Nihil asperiores autem dolores excepturi corporis numquam fugiat
-              dolorum officia ducimus quos quaerat odio laboriosam in cum ea
-              non, ratione quidem voluptatem consectetur vel maxime. Perferendis
-              molestias nostrum iure nemo ipsam praesentium eveniet aut atque
-              porro impedit magnam id et, quibusdam beatae eaque commodi,
-              exercitationem illum, est deleniti provident! Sapiente molestias
-              deleniti aliquam blanditiis sit! Optio iste fugit doloribus.
-              Laudantium veniam a voluptatum voluptatibus velit debitis
-              molestiae voluptate odio et expedita magnam blanditiis
-              exercitationem animi, nihil voluptates. Ex cumque maiores
-              doloremque iste ipsum? Inventore nemo molestias voluptatum porro
-              enim harum animi? Labore, soluta earum ab et facere odit commodi
-              repellat doloribus. Labore incidunt quis ullam minima quidem
-              architecto, illum error tempore, doloremque perspiciatis, dolores
-              facere. Corporis sunt praesentium sed, ipsum doloremque veritatis
-              molestiae dolor autem doloribus. Nostrum dolores quam obcaecati,
-              architecto rem ratione quod hic blanditiis dignissimos ab.
-              Accusamus velit pariatur, officia maxime soluta architecto harum
-              ut aut tempore doloremque? Sint corrupti architecto ab maiores,
-              suscipit enim dolores facere magnam voluptate consequuntur ipsam
-              asperiores dolore odit vitae numquam quo nulla qui quod, deleniti
-              provident dicta iure a fugit! Est, quibusdam voluptate molestias
-              repellendus doloremque ut itaque? Mollitia illo enim qui.
-              Praesentium, alias maxime temporibus amet commodi numquam
-              voluptatum, quia officia eius cupiditate, et eum suscipit ratione
-              sunt quidem sit hic ad consequatur nesciunt dolor ea reiciendis
-              nobis nam. Recusandae modi, vitae quaerat doloremque repudiandae
-              aliquid laudantium architecto accusantium dignissimos, delectus
-              nulla amet voluptatum magni corporis, repellat reprehenderit
-              exercitationem assumenda odit quis. Porro eos sapiente unde
-              blanditiis, provident nihil doloremque, dolorem culpa et deleniti
-              ullam? Ea quasi voluptatum ratione enim, eligendi, saepe aperiam
-              error, tempore veritatis illo nisi corporis animi placeat
-              necessitatibus dicta?
+              <p>
+                I approach software development as a process of identifying friction in real systems and engineering solutions that remove it. Each product I build begins with a practical problem — something inefficient, slow, or overly complex — and evolves into a system designed for performance, reliability, and developer experience.
+              </p>
+              <p>
+                My journey began with Shrtn, a URL shortening platform. While the idea seems simple, building it required solving backend challenges like generating collision-resistant short identifiers, designing fast redirect pipelines, and tracking analytics efficiently. Working on this project helped me understand how thoughtful data models and optimized request paths are critical for building scalable services.
+              </p>
+              <p>
+                As I continued building applications, I realized that creating software is only part of the challenge — keeping it reliable in production is just as important. This led me to develop Trackly, an infrastructure monitoring platform for tracking uptime, latency, and service health in real time. I engineered concurrent health checks, a status logging pipeline, and an automated alerting system. I also implemented a warmup mechanism that periodically pings services to mitigate serverless cold starts and reduce latency spikes.
+              </p>
+              <p>
+                While working across projects, I noticed how much time developers spend setting up development environments before writing actual code. Configuring Docker containers, connecting APIs, and enabling hot reloading often involved repetitive setup. To eliminate this friction, I built QuickReactGO, a CLI tool that scaffolds a fully containerized React and Go application with a single command. The tool standardizes development environments and allows engineers to move directly from idea to running application.
+              </p>
+              <p>
+                Wanting to explore more complex distributed systems, I built Flow, a real-time communication platform supporting messaging, audio calls, and video conferencing. The platform uses a WebSocket-based backend for low-latency messaging and integrates WebRTC for peer-to-peer media streaming. Building Flow pushed me to think deeply about persistent connections, real-time state synchronization, and responsive user experiences.
+              </p>
+              <p>
+                Most recently, I explored how AI can improve developer workflows by building Prwise, an AI-assisted pull request review platform. The system analyzes code changes automatically and surfaces actionable feedback before human reviewers begin reviewing the code, helping teams maintain consistent standards while reducing review delays.
+              </p>
+              <p>
+                Across these products, a consistent theme shapes my engineering approach: reducing developer friction, designing systems that scale reliably, and automating repetitive processes. Each project represents a deeper exploration into modern software architecture — from backend services and infrastructure monitoring to developer tooling, real-time systems, and intelligent development workflows.
+              </p>
             </div>
             <div
               className="inline-flex justify-center h-14 items-center gap-1 cursor-pointer"
@@ -228,21 +188,21 @@ export const Experience = () => {
                   theme === "dark"
                     ? undefined
                     : {
-                        light: [
-                          "#ebedf0",
-                          "#9be9a8",
-                          "#40c463",
-                          "#30a14e",
-                          "#216e39",
-                        ],
-                        dark: [
-                          "#ebedf0",
-                          "#9be9a8",
-                          "#40c463",
-                          "#30a14e",
-                          "#216e39",
-                        ],
-                      }
+                      light: [
+                        "#ebedf0",
+                        "#9be9a8",
+                        "#40c463",
+                        "#30a14e",
+                        "#216e39",
+                      ],
+                      dark: [
+                        "#ebedf0",
+                        "#9be9a8",
+                        "#40c463",
+                        "#30a14e",
+                        "#216e39",
+                      ],
+                    }
                 }
               />
             </div>
