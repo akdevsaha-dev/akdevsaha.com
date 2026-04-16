@@ -49,7 +49,7 @@ The 2.0.0 release introduced a major architectural shift toward container-first 
   {
     title: "trackly",
     ghLink: "https://github.com/akdevsaha-dev/trackly",
-    link: "https://github.com/akdevsaha-dev/trackly",
+    link: "https://trackly-nine.vercel.app",
     description: `
     Designed and developed Trackly, a high-performance, full-featured infrastructure monitoring platform engineered for real-time uptime tracking, automated site "warmup" cycles, and instantaneous incident alerting. Built with a focus on reliability and visual excellence, the platform delivers a seamless, developer-centric experience for maintaining high-availability web services.
 
@@ -67,7 +67,7 @@ Automated Alerting Pipeline: Integrated a high-delivery notification system via 
   },
   {
     title: "Prwise",
-    ghLink: "https://github.com/akdevsaha-dev/prwise",
+    ghLink: "https://github.com/akdevsaha-dev/PrwiseAI",
     link: "https://github.com/akdevsaha-dev/prwise",
     description: `Prwise is a developer productivity platform designed to automate and enhance the pull request review process. The system integrates AI-assisted analysis directly into the development workflow, enabling engineers to receive instant feedback on code quality, architecture decisions, and potential issues before human reviewers even begin reviewing the code.
 
@@ -75,12 +75,5 @@ Modern development teams rely heavily on code reviews to maintain quality, secur
 
 Prwise addresses this challenge by introducing an intelligent review pipeline that analyzes pull requests automatically and surfaces actionable suggestions to developers in real time.
     `,
-  },
-  {
-    title: "Shrtn",
-    ghLink: "https://github.com/akdevsaha-dev/shrtn",
-    link: "https://github.com/akdevsaha-dev/shrtn",
-    description:
-      "Phasellus eget velit a massa laoreet dignissim. Vivamus ac augue a metus sagittis cursus. Integer a tellus sit amet ligula porta eleifend. Sed commodo elit a nibh finibus, a vehicula ipsum posuere.",
   },
 ];
