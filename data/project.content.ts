@@ -69,7 +69,7 @@ Automated Alerting Pipeline: Integrated a high-delivery notification system via 
     title: "Prwise",
     ghLink: "https://github.com/akdevsaha-dev/PrwiseAI",
     link: "https://github.com/akdevsaha-dev/prwise",
-    description: `Prwise is a developer productivity platform designed to automate and enhance the pull request review process. The system integrates AI-assisted analysis directly into the development workflow, enabling engineers to receive instant feedback on code quality, architecture decisions, and potential issues before human reviewers even begin reviewing the code.
+    description: `Prwise is a developer productivity platform designed to automate and enhance the pull request review process. The system is intentionally optimized for large-screen environments, enabling engineers to perform deep code analysis, understand architecture decisions, and act on insights without the constraints of smaller devices. The system integrates AI-assisted analysis directly into the development workflow, enabling engineers to receive instant feedback on code quality, architecture decisions, and potential issues before human reviewers even begin reviewing the code.
 
 Modern development teams rely heavily on code reviews to maintain quality, security, and maintainability. However, manual pull request reviews often create bottlenecks in engineering teams. Large repositories with frequent commits can overwhelm reviewers, leading to delayed feedback, inconsistent standards, and overlooked issues.
 
